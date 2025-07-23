@@ -2,7 +2,7 @@
 const Contact = () => {
   return (
     <>
-      <div className="contact-section">
+      <section className="contact-section">
         {/* Banner */}
         <div className="bg-img">
           <h1>Contact</h1>
@@ -83,7 +83,7 @@ const Contact = () => {
             <button className="btn-style" type="submit">Send Message</button>
           </form>
         </section>
-      </div>
+      </section>
     </>
   );
 };
