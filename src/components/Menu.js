@@ -111,7 +111,7 @@ const signatureDishes = [
 
 const Menu = () => {
   return (
-    <div className="main-menu-section">
+    <section className="main-menu-section">
       <div className="bg-img">
         <h1>The Menu</h1>
       </div>
@@ -166,7 +166,7 @@ const Menu = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
